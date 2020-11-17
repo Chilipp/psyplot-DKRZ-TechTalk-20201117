@@ -1,0 +1,88 @@
+/* this is for styling the overlay
+ * when using header / footer and backimage
+ *
+ * see metadata in notebook
+ */
+
+
+#rise-footer {
+    margin: 10px;
+    right: 10%;
+}
+
+#rise-footer img {
+    height: 6em;
+    margin-left: 10em;
+    margin-right: 10em;
+}
+
+.xr-text-repr-fallback {
+    display: none !important;
+}
+
+li.xr-var-item {
+    display: flex;
+}
+
+dl > dt {
+    clear: left;
+}
+
+dl > dd {
+    padding-left: 10px;
+}
+
+#slide-2-0 > div.fragment > div.cell {
+    color: #004085;
+    background-color: #cce5ff;
+    border-color: #b8daff;
+    padding: .75rem 1.25rem;
+    margin: 1rem;
+    width: 45% !important;
+    border: 1px solid transparent;
+    border-radius: .25rem;
+}
+
+#slide-3-3 > div.fragment > div.cell {
+    color: #004085;
+    background-color: #cce5ff;
+    border-color: #b8daff;
+    padding: .75rem 1.25rem;
+    margin: 1rem;
+    width: 45% !important;
+    border: 1px solid transparent;
+    border-radius: .25rem;
+}
+
+#slide-5-3 .code_cell {
+    flex-direction: row !important;
+}
+
+#slide-5-3 .code_cell .input {
+    width: 50%
+}
+
+#slide-5-3 .code_cell .output_wrapper {
+    width: 50%
+}
+
+#slide-5-3 .code_cell .output_wrapper .prompt {
+    min-width: 2ex;
+}
+
+section .past {
+    top: 0  !important;
+}
+
+section .present {
+    top: 0  !important;
+}
+
+section .future {
+    top: 0  !important;
+}
+
+.section-heading {
+    padding-top: 25%  !important;
+    text-align: center  !important;
+}

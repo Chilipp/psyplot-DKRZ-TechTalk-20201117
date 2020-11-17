@@ -1,0 +1,24 @@
+name: psyplot-presi
+channels:
+    - conda-forge
+dependencies:
+    - python=3.8
+    - jupyter_contrib_nbextensions
+    - psy-view
+    - jupyter
+    - rise
+    - matplotlib>=3.3
+    - cartopy>=0.18
+    - ipython>=7.14
+    - dask
+    - pip
+    # Required for jupyter-desktop-server
+    - websockify
+    - pip:
+        - jupyter-desktop-server
+        - git+git://github.com/pyvista/pyvista@master
+        - pyvistaqt
+        - ipyvtk-simple>=0.1.2
+        - itkwidgets>=0.25.2
+        - pyct
+        - git+https://github.com/Chilipp/psy-vtk.git@master

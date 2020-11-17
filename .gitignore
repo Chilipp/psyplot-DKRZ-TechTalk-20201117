@@ -127,3 +127,14 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+# presentation material
+data/step-?.png
+data/my-project.pkl
+data/output.png
+data/fmt.yml
+data/topo_icon_edge_r3b7_13km.nc
+data/tmp.png
+fmt.yml
+my-project.pkl
+.ipynb_checkpoints

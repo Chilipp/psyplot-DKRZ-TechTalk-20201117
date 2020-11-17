@@ -1,0 +1,4 @@
+figure.subplot.bottom : 0.02
+figure.subplot.left : 0.02
+figure.subplot.right : 0.998
+figure.subplot.top : 0.9
